@@ -1,0 +1,132 @@
+* {
+    background-color: #202124;
+    font-family: 'JetBrains Mono', sans-serif;
+}
+body {
+    max-width: 60rem;
+    margin: auto;}
+
+
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: 2rem 2fr 1fr;
+    grid-column-gap:1em;
+    }
+
+.lateralnumber {
+    text-align: center;
+    font-size: 0.9rem;
+    grid-row-start: span 4;
+    grid-column: 1;}
+a{
+    color: inherit; /* Hereda el color del texto circundante */
+    text-decoration: none; /* Elimina el subrayado */
+    background-color: transparent; /* Fondo transparente */
+    cursor: pointer; /* Mantiene el cursor como puntero */
+}
+.save a {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: green;
+
+
+}
+
+
+h1 {
+    font-size: 3.8rem;
+    margin-top: 0px;}
+
+h1 {
+    font-size: 3.8rem;
+    margin-top: 0px;
+   display: block;
+    border-right: 4px solid #5FC8D6;
+    width: 5ch;
+   animation: typing 1.5s steps(4), blink .5s infinite step-end alternate;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
+
+
+
+.title h2 {
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: .5rem;}
+h3 {
+    font-style: italic;
+    font-size: 2rem;}
+p .yellow{
+    font-style: italic;}
+h4 {
+    margin-top: 2rem;
+    margin-bottom: 0;}
+h5 {
+    font-weight: 300 ;
+    display: inline;
+    margin-top: 0.7rem;
+    margin-bottom: 0;}
+aside {
+    grid-column: 3;
+}
+header {
+    grid-column-start: span 2;}
+.skilltext{
+    font-size: 0.9rem;
+    font-weight: 600;}
+.about {grid-column-start: span 2;}
+.contact {
+    line-height: 0.5rem;
+    text-align: right;
+    font-size: 0.8rem;}
+
+.flex-content {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;}
+
+.justify {
+    padding-right: 0.2rem;
+    text-align: justify;}
+
+.description {
+    padding-right: 2.7rem;}
+
+/*colores*/
+.skyblue {
+    color: #5FC8D6;}
+
+.text {
+    color: #989799;
+    font-size: 0.9rem;}
+
+
+.yellow {
+    color: #FBEC97;}
+
+.lightSalmon {
+    color: #F48179;}
+
+
+
